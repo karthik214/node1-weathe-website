@@ -34,7 +34,8 @@ const forecast = (longitude, latitude, callback) => {
           " degree. And Humidity is " +
           data.humidity +
           ". This data is observerd at " +
-          data.observedTime
+          data.observedTime +
+          "%"
       );
     }
   });
